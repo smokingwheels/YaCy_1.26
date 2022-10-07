@@ -1,9 +1,11 @@
 Rem bat file to exe. Yacy install
 
-Shell _Hide "call termux.bat"
-Shell _Hide "call refresh.bat"
-Shell _Hide "call start startYACY.bat"
-Print "Waiting YaCy to start http://localhost:8090"
+Shell _Hide "CMD /C termux.bat"
+Sleep 1
+Rem Shell _Hide "CMD /C refresh.bat"
+Sleep 1
+Rem Rem Shell _Hide "CMD /C startYACY.bat"
+Print "Double click startYACY"
 Shell "exit"
 End
 
